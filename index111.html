@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Д</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+       color: #96443c;
+       text-decoration: none;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+        <label class="btn" for="modal-2">Пример 2</label>
+    </div>
+    <!-- Modal Two -->
+    <div class="modal">
+        <input class="modal-open" id="modal-2" type="checkbox" hidden>
+        <div class="modal-wrap" aria-hidden="true" role="dialog">
+            <label class="modal-overlay" for="modal-2"></label>
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h2>Замовити дзвінок</h2>
+                    <label class="btn-close" for="modal-2" aria-hidden="true">×</label>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input name="name" placeholder="* Ім'я" class="textbox" required />
+                        <input name="phone" placeholder="* Телефон" class="textbox" required />
+                        <input name="submit" class="btn btn-form" type="submit" value="Отправить" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
